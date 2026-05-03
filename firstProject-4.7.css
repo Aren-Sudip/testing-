@@ -1,0 +1,248 @@
+:root {
+  --mainBackground: #eff6ff;
+  --baseText: #eff6ff;
+  --fbbtn: #255a9b;
+  --lnBtn: #0076b6;
+  --ranFirst: #3698fb;
+  --ranSec: #7b8a92;
+  --ranthird: #96a5b1;
+  --ranFourth: #afafaf;
+  --ranFifth: #eeeeee;
+  --ranSixth: #ffffff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media (min-width: 1710px) {
+
+}
+*,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Barlow", sans-serif;
+  
+}
+
+.templateImg {
+  width: 50vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+.imagePart {
+  display: inline-block;
+}
+.detailsPart {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 110px;
+  margin-right: 110px;
+
+}
+.mainHeader {
+  margin-top: 100px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: 300;
+}
+.mainPara {
+  font-size: 18px;
+  color: var(--ranSec);
+  margin-bottom: 60px;
+}
+
+.facebookBtn {
+  padding: 10px 70px;
+  margin-right: 20px;
+  background-color: var(--fbbtn);
+  border: none;
+  color: var(--ranFifth);
+  vertical-align: middle;
+}
+.facebookBtn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.facebookBtn:active{
+  opacity: 0.9;
+background-color: red;
+}
+
+.fbSvg {
+  vertical-align: middle;
+  margin-right: 50px;
+  margin-left: -60px;
+}
+
+.linkedinBtn {
+  padding: 10px 70px;
+  margin-left: 20px;
+  background-color: var(--lnBtn);
+  border: none;
+  color: var(--ranFifth);
+  vertical-align: middle;
+}
+.linkedinBtn:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.linkedinBtn:active{
+  opacity: 0.6;
+  background-color: red;
+}
+.lnSvg {
+  vertical-align: middle;
+  margin-right: 50px;
+  margin-left: -50px;
+}
+
+
+.orBtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--ranSixth);
+  color: var(--ranFourth);
+  margin: 20px 284px 20px 284px;
+}
+ /* Hi i don't know how to add that horizontal line without position */
+ 
+.inputContainers{
+  margin-bottom: 50px;
+}
+.email {
+  margin-right: 30px;
+  text-align: start;
+  width: 269px;
+  height: 40px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  border: none;
+  color: var(--ranSec);
+    box-shadow: 0px 0px 2px var(--ranFourth);
+}
+
+.phone {
+  margin-left: 30px;
+  text-align: start;
+  width: 269px;
+  height: 40px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  color: var(--ranSec);
+  border: none;
+   box-shadow: 0px 0px 2px var(--ranFourth);
+}
+.secondHeader {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+  .secondPara {
+  margin-bottom: 60px;
+  font-size: 14px;
+  color: var(--ranSec);
+}
+input[type="radio"] {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.infoImg {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+  vertical-align: middle;
+  color: var(--ranFourth);
+}
+
+label {
+  margin-right: 50px;
+}
+.selfIntro {
+  color: var(--ranFourth);
+  border: none;
+  background-color: var(--);
+  margin-bottom: 50px;
+  resize:  none;
+  box-shadow: 0px 0px 10px  var(--ranFifth);
+  padding: 10px;
+
+}
+
+.checkboxContainer{
+  vertical-align: middle;
+  margin-left: 290px ;
+}
+.confirmationBox {
+  margin-left: -290px;
+  margin-bottom: 50px;
+
+}
+.confirmationText{
+  color: var(--ranFourth);
+  font-size: 15px;
+}
+
+.createAccount {
+  background-color: var(--ranFirst);
+  color: var(--ranSixth);
+  padding: 10px 50px; 
+   border: none;
+   border-radius: 4px;
+  
+}
+.createAccount:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.createAccount:active{
+  transition: 0.15s;
+  opacity: 0.6;
+   color: var(--ranFirst);
+  background-color: var(--ranSixth);
+}
+
+
+
+
+
+
+/* ?????? */
+
+
+
+
+
+@media (min-width: 100px) and (max-width : 1700px) {
+
+
+*,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Barlow", sans-serif;
+  margin: auto;
+  margin-bottom :20px ;
+  
+}
+.templateImg {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.imagePart {
+  display: inline-block;
+}
+.detailsPart {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 110px;
+  margin-right: 110px;
+  width: 40vw;
+
+}
+}
